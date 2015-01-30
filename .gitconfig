@@ -25,9 +25,9 @@
 	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
 
 	# Show verbose output about tags, branches or remotes
-	tags = tag -l
-	branches = branch -a
-	remotes = remote -v
+	lt = tag -l
+	lb = branch -a
+	lr = remote -v
 
 	# Amend the currently staged files to the latest commit
 	amend = commit --amend --reuse-message=HEAD
@@ -36,7 +36,10 @@
 	credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
 
 	# Interactive rebase with the given number of latest commits
-	reb = "!r() { git rebase -i HEAD~$1; }; r"
+	rebase = "!r() { git rebase -i HEAD~$1; }; r"
+
+	# Remove the old tag with this name and tag the latest commit with it.
+	retag = "!r() { git tag -d $1 && git push origin :refs/tags/$1 && git tag $1; }; r"
 
 	# Find branches containing commit
 	fb = "!f() { git branch -a --contains $1; }; f"
@@ -74,12 +77,9 @@
 	email = m2q1n9@users.noreply.github.com
 
 [core]
-	excludesfile = ~/.gitignore
-	attributesfile = ~/.gitattributes
 	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
 	precomposeunicode = false
 	trustctime = false
-	editor = emacs
 	pager =
 
 [help]
@@ -93,9 +93,6 @@
 
 [apply]
 	whitespace = fix
-
-[merge]
-	log = true
 
 [color]
 	ui = auto

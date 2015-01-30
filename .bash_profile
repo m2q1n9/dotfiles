@@ -13,4 +13,4 @@ export HISTSIZE=1000000
 
 [ -f .bashrc ] && . .bashrc
 
-export EDITOR=emacs && $EDITOR
+emacs

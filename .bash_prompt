@@ -31,5 +31,4 @@ prompt_git() {
 	fi;
 }
 
-# Set the terminal title to the current working directory.
 export PS1="\u@\h:\w\$(prompt_git) => "

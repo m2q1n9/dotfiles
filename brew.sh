@@ -12,5 +12,8 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# Install command-line tools using Homebrew.
+# brew install coreutils
+
 # Remove outdated versions from the cellar.
 brew cleanup

@@ -1,17 +1,20 @@
 
 GOAGENT="http://127.0.0.1:8087"
-alias proxy1="export http_proxy=$GOAGENT https_proxy=$GOAGENT"
-alias proxy0="unset http_proxy https_proxy"
+alias p1="export http_proxy=$GOAGENT https_proxy=$GOAGENT"
+alias p0="unset http_proxy https_proxy"
 
+alias g=git
+alias gh=hub
+alias l=ll
 alias ll="ls -l"
 alias ls="ls -A --color"
 alias map="xargs -n1"
 alias sudo="sudo "
-alias rsync="time rsync -av --stats --progress"
+alias rsync="rsync -av --stats --progress"
 
 alias brewup="brew update && brew upgrade && brew cleanup"
+alias npmup="npm install npm -g && npm update -g"
 alias pipup="pip-review --interactive"
-alias npmup="npm update -g"
 
 alias ip="ipconfig getifaddr en0; dig +short myip.opendns.com @resolver1.opendns.com"
 alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
