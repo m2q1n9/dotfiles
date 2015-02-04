@@ -12,6 +12,7 @@ functions,\
 gitconfig,\
 hushlogin,\
 inputrc,\
+npmrc,\
 wgetrc,\
 editorconfig\
 }; do
