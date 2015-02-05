@@ -9,6 +9,7 @@ curlrc,\
 dir_colors,\
 exports,\
 functions,\
+gemrc,\
 gitconfig,\
 hushlogin,\
 inputrc,\
