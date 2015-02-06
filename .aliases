@@ -16,7 +16,7 @@ alias brewup="brew update && brew upgrade && brew cleanup"
 alias npmup="npm install npm -g && npm update -g"
 alias pipup="pip-review --interactive"
 
-alias jenkins="nohup jenkins --httpPort=8070 >/dev/null 2>&1 &"
+alias jenkins="nohup jenkins >/dev/null 2>&1 &"
 
 alias ip="ipconfig getifaddr en0; dig +short myip.opendns.com @resolver1.opendns.com"
 alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
