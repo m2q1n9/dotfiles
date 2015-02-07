@@ -78,6 +78,7 @@
 
 [core]
 	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+	mergeoptions = --no-edit
 	precomposeunicode = false
 	trustctime = false
 	pager =
