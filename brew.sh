@@ -25,6 +25,7 @@ brew install coreutils
 brew install ctags
 brew install dhex
 brew install docker
+brew install dpkg
 brew install emacs
 brew install figlet
 brew install findutils
@@ -33,10 +34,13 @@ brew install flex
 brew install gawk
 brew install gcc
 brew install git
+brew install git-flow
 brew install global
 brew install gnu-sed
 brew install gnu-tar
 brew install gnu-typist
+brew install go
+brew install httpie
 brew install hub
 brew install imagemagick
 brew install jenkins
@@ -48,7 +52,10 @@ brew install mongodb
 brew install mysql
 brew install nginx
 brew install node
+brew install openssl
+brew install protobuf
 brew install python
+brew install readline
 brew install redis
 brew install sqlite
 brew install ssh-copy-id
