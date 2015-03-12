@@ -18,8 +18,6 @@ alias pipup="pip-review --interactive"
 
 alias jenkins="nohup jenkins >/dev/null 2>&1 &"
 
-alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
-
 alias dsflush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 alias lsclean="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister \
 -kill -r -domain local -domain system -domain user && killall Finder"
