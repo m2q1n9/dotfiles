@@ -25,4 +25,3 @@ alias rmtrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm 
 alias rmds="sudo gfind . -type f -name .DS_Store -exec rm {} \;"
 
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
