@@ -23,5 +23,3 @@ alias lsclean="/System/Library/Frameworks/CoreServices.framework/Frameworks/Laun
 -kill -r -domain local -domain system -domain user && killall Finder"
 alias rmtrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
 alias rmds="sudo gfind . -type f -name .DS_Store -exec rm {} \;"
-
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
