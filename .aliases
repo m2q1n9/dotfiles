@@ -21,5 +21,4 @@ alias jenkins="nohup jenkins >/dev/null 2>&1 &"
 alias dsflush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 alias lsclean="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister \
 -kill -r -domain local -domain system -domain user && killall Finder"
-alias rmtrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
 alias rmds="sudo gfind . -type f -name .DS_Store -exec rm {} \;"
