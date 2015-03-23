@@ -5,10 +5,12 @@ alias p0="unset http_proxy https_proxy"
 
 alias g=git
 alias gh=hub
+alias sed=gsed
 
 alias l=ll
 alias ll="ls -l"
 alias ls="ls -A --color"
+
 alias map="xargs -n1"
 alias sudo="sudo "
 alias rsync="rsync -av --stats --progress"
