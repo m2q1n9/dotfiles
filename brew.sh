@@ -53,6 +53,7 @@ brew install mysql
 brew install nginx
 brew install node
 brew install openssl
+brew install postgresql
 brew install protobuf
 brew install python
 brew install readline
