@@ -26,6 +26,7 @@ brew install ctags
 brew install dhex
 brew install docker
 brew install dpkg
+brew install elasticsearch
 brew install emacs
 brew install figlet
 brew install findutils
