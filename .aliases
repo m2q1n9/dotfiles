@@ -21,7 +21,7 @@ alias pipup="pip-review --interactive"
 
 alias jenkins="nohup jenkins >/dev/null 2>&1 &"
 
+alias rmds="sudo gfind . -type f -name .DS_Store -exec rm {} \;"
 alias dsflush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 alias lsclean="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister \
 -kill -r -domain local -domain system -domain user && killall Finder"
-alias rmds="sudo gfind . -type f -name .DS_Store -exec rm {} \;"
