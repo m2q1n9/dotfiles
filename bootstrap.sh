@@ -17,5 +17,5 @@ npmrc,\
 wgetrc,\
 editorconfig\
 }; do
-	[ -f $file ] && ln -sf $PWD/$file ~/$file
+	[ -f $file ] && ln -sfv $PWD/$file ~/$file
 done
