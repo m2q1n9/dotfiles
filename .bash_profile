@@ -1,6 +1,5 @@
 
 shopt -s cdspell
-shopt -s histappend
 shopt -s nocaseglob
 
 export HISTIGNORE="&:[ ]*:* --help:ls:ll:cd:cd -:cd ..:cd \$*:"
