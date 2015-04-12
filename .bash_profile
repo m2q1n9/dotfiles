@@ -1,6 +1,5 @@
 
 shopt -s cdspell
-shopt -s nocaseglob
 
 export HISTIGNORE="&:[ ]*:* --help:ls:ll:cd:cd -:cd ..:cd \$*:"
 export HISTFILESIZE=1000000
