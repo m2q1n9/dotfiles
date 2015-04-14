@@ -5,7 +5,6 @@ aliases,\
 bashrc,\
 bash_profile,\
 bash_prompt,\
-curlrc,\
 dir_colors,\
 exports,\
 functions,\
