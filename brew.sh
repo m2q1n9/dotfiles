@@ -45,6 +45,7 @@ brew install httpie
 brew install hub
 brew install imagemagick
 brew install jenkins
+brew install jq
 brew install lua
 brew install luajit
 brew install luarocks
