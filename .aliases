@@ -12,7 +12,8 @@ alias ll="ls -l"
 alias ls="ls -A --color"
 
 alias sudo="sudo "
-alias wm="wget -Hkm"
+alias wm1="wm -H"
+alias wm="wget -km"
 alias map="xargs -n1"
 alias rsync="rsync -av --stats --progress"
 
