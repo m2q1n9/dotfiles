@@ -1,8 +1,4 @@
 
-GOAGENT="http://127.0.0.1:8087"
-alias p1="export http_proxy=$GOAGENT https_proxy=$GOAGENT"
-alias p0="unset http_proxy https_proxy"
-
 alias g=git
 alias gh=hub
 alias sed=gsed
