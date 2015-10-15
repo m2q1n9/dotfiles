@@ -1,5 +1,5 @@
 
-export HISTIGNORE="&:[ ]*:* --help:l:ls:ll:cd:cd *:"
+export HISTIGNORE="&:[ ]*:* --help:l:l *:cd:cd *:"
 export HISTFILESIZE=1000000
 export HISTSIZE=1000000
 
